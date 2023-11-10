@@ -13,7 +13,7 @@
     "introBox": {
       "headline": "Parallel Human Approval Process",
       "text": [
-        "This application will create a State Machine, an SNS topic. The State Machine will send three Task Tokens to different approvers via SNS and wait for task to be completed. After all approvers approve the task with send-task-success, the execution ends up with Success State. If any of them rejects by using send-task-failure, then the execution ends up with Fail State."
+        "This application will create a State Machine and three SNS topics. The State Machine will send three Task Tokens to different approvers via SNS and wait for task to be completed. After all approvers approve the task with send-task-success, the execution ends up with Success State. If any of them rejects by using send-task-failure, then the execution ends up with Fail State."
 
       ]
     },
